@@ -35,4 +35,7 @@ Générer une couleur au hasard :
 
 	myPalette.setRandom(); // rgba(23,47,219,0.39)
 	myPalette.setRandom(0.75); // rgba(41,58,12,0.75)
-	
+
+Les trois fonctions précédentes servent à générer une chaîne de caractères qui représente la couleur une fois ajoutée à une feuille de style. Le principe consiste à l'utiliser ensuite directement dans un script Javascript (par exemple avec jQuery ou Zepto) comme ci-dessous :
+
+	$('#myelement').css("backgroundColor", myPalette.getColor('rouge'));
