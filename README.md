@@ -13,9 +13,9 @@ Optionnellement, l'outil permet(tra) de générer une feuille de style à partir
 
 ## Comment ?
 
-Pour déclarer une nouvelle palette :
-
-	var myPalette = new Swatches;
+Pour déclarer une nouvelle palette (avec NodeJS):
+ 
+	var myPalette = require("./tools/palette");
 	
 Pour lister les couleurs :
 
